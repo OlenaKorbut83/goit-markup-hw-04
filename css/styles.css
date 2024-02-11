@@ -144,13 +144,9 @@ position: relative;
 }
 
 
-
-
-
-
 /* =================HERO================== */
 .hero {
-  background-image: linear-gradient(rgba(46, 47, 66, 0.7),rgba(46, 47, 66, 0.7)),url(../images/people-office\ 1.jpg);
+  background-image: linear-gradient(rgba(46, 47, 66, 0.7), rgba(46, 47, 66, 0.7)), url(../images/people-office\ 1.jpg);
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
@@ -315,6 +311,7 @@ width: calc((100% - 72px) / 4);
 }
 
 .team-icon-list {
+  display: flex;
   justify-content: center;
   gap: 24px;
 }
