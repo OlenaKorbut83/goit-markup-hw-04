@@ -150,8 +150,7 @@ position: relative;
 
 /* =================HERO================== */
 .hero {
-  background-image: linear-gradient(rgba(46, 47, 66, 0.7),
-  rgba(46, 47, 66, 0.7)), url(../images/people-office\ 1.jpg);
+  background-image: linear-gradient(rgba(46, 47, 66, 0.7), rgba(46, 47, 66, 0.7)), url(../images/people-office\ 1.jpg);
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
@@ -315,6 +314,11 @@ width: calc((100% - 72px) / 4);
   padding: 32px 0;
 }
 
+.icon-list {
+  justify-content: center;
+  gap: 24px;
+}
+
 .team-icon-link {
   width: 100%;
   height: 100%;
@@ -365,7 +369,7 @@ width: calc((100% - 72px) / 4);
 
 .portfolio-list-item {
   width: calc((100% - 48px) / 3);
-  transform: box-shadow 250ms cubic-bezier(0.4, 0, 0.2, 1);
+  transition: box-shadow 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .portfolio-list-item:hover {
@@ -461,7 +465,7 @@ width: calc((100% - 72px) / 4);
 
 
 .footer-text-soc {
-  font-weight: 500px;
+  font-weight: 500;
   font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.02em;
